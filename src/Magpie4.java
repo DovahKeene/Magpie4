@@ -58,8 +58,8 @@ public class Magpie4
                 {
                     if (findKeyword(statement, "you", 0)>=0)
                     {
-                        String statement2 = statement;
-                        response = transformYouMeStatement(statement2);
+
+                        response = transformYouMeStatement(statement);
                     }
                 }
 
